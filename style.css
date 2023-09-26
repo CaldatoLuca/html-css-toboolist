@@ -1,0 +1,30 @@
+/* 
+-----------
+! COMMON
+-----------
+ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+-----------
+! HEADER
+-----------
+ */
+header {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: larger;
+}
+img {
+  vertical-align: middle;
+}
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Martian Mono", monospace;
+}
