@@ -7,6 +7,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 .container {
   width: 70%;
@@ -52,4 +53,40 @@ button {
   background-color: white;
   color: 7da8c7;
   border-color: 7da8c7;
+}
+section {
+  margin-top: 30px;
+}
+.sec-title {
+  font-family: "Croissant One", cursive;
+}
+.cerchio {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  border: 0.5px solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+.green {
+  color: green;
+  border-color: green;
+}
+span {
+  font-size: larger;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.fake-button {
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  color: white;
+}
+.editorial {
+  background-color: rgba(71, 173, 241, 255);
 }
