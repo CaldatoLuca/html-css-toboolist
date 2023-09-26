@@ -1,0 +1,155 @@
+/* 
+-----------
+! COMMON
+-----------
+ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+
+/* 
+  -----------
+  ! HEADER
+  -----------
+   */
+header {
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: larger;
+  margin-bottom: 100px;
+}
+img {
+  vertical-align: middle;
+}
+.title {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Martian Mono", monospace;
+}
+
+/* 
+  -----------
+  ! MAIN
+  -----------
+   */
+button {
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: 0.5px solid;
+}
+#task {
+  background-color: rgba(71, 173, 241, 255);
+  color: rgba(255, 255, 255, 255);
+}
+#section {
+  background-color: white;
+  color: 7da8c7;
+  border-color: 7da8c7;
+}
+section {
+  margin-top: 30px;
+}
+.sec-title {
+  font-family: "Croissant One", cursive;
+  margin-bottom: 10px;
+}
+span {
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: larger;
+}
+li {
+  margin-bottom: 20px;
+}
+
+.green::before {
+  content: "\2713";
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  border: 0.5px solid;
+  display: inline-block;
+  vertical-align: middle;
+  color: green;
+  border-color: green;
+}
+.red::before {
+  content: "\2717";
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  border: 0.5px solid;
+  display: inline-block;
+  vertical-align: middle;
+  color: red;
+  border-color: red;
+}
+.editorial::after {
+  content: "Editorial";
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  background-color: rgba(71, 173, 241, 255);
+  color: white;
+}
+.q1-goals::after {
+  content: "Q1 goals";
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  background-color: #ab5de6;
+  color: white;
+}
+.recruiting::after {
+  content: "Recruiting";
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  background-color: #2cc6ab;
+  color: white;
+}
+.mobile::after {
+  content: "Mobiles";
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  background-color: #ff9b00;
+  color: white;
+}
+.website::after {
+  content: "Website";
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  background-color: #ec4a9d;
+  color: white;
+}
+.goals::after {
+  content: "Goals";
+  display: inline-block;
+  padding: 6px 13px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  background-color: #a3d116;
+  color: white;
+}

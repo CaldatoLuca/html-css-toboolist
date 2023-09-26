@@ -10,3 +10,5 @@ creazione di una web app
 - utilizzo di metodi di accentramento (.container, vertical-aling, text-align:center + line-height)
 - button
 - display: inline-block
+- :after
+- :before
