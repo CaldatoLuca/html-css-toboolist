@@ -1,20 +1,37 @@
-/* 
------------
-! COMMON
------------
+/*
+----------
+! RESET
+---------- 
  */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+/*
+---------
+! FONT
+--------- 
+ */
+body {
   font-family: "Roboto", sans-serif;
 }
-.container {
-  width: 70%;
-  margin: 0 auto;
+.title {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Martian Mono", monospace;
 }
-ul {
-  list-style: none;
+.sec-title {
+  font-family: "Croissant One", cursive;
+}
+
+/* 
+-----------
+! COMMON
+-----------
+ */
+body {
+  background-color: aliceblue;
 }
 
 /* 
@@ -23,10 +40,10 @@ ul {
 -----------
  */
 header {
-  padding-left: 40px;
-  padding-top: 20px;
+  padding: 20px 40px;
   font-size: larger;
   margin-bottom: 100px;
+  background-color: white;
 }
 img {
   vertical-align: middle;
@@ -34,8 +51,6 @@ img {
 .title {
   display: inline-block;
   vertical-align: middle;
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-family: "Martian Mono", monospace;
 }
 
 /* 
@@ -43,10 +58,28 @@ img {
 ! MAIN
 -----------
  */
-button {
-  padding: 7px 15px;
+/*
+---------- 
+? BUTTON-CONTAINER
+----------
+ */
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
   border-radius: 10px;
+}
+.button-container {
+  padding: 16px 50px 8px 50px;
+  border-bottom: 2px solid aliceblue;
+}
+button {
+  all: none;
+  padding: 6px 10px;
+  border-radius: 5px;
   border: 0.5px solid;
+  font-size: 11px;
+  cursor: pointer;
 }
 #task {
   background-color: rgba(71, 173, 241, 255);
@@ -57,11 +90,19 @@ button {
   color: 7da8c7;
   border-color: 7da8c7;
 }
+
+/* 
+---------
+? TASK-CONTAINER
+---------
+ */
+.task-container {
+  padding: 40px 50px 8px 50px;
+}
 section {
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .sec-title {
-  font-family: "Croissant One", cursive;
   margin-bottom: 10px;
 }
 .cerchio {
@@ -87,6 +128,9 @@ span {
   vertical-align: middle;
   margin-left: 15px;
   margin-right: 5px;
+}
+ul {
+  list-style: none;
 }
 .fake-button {
   display: inline-block;
