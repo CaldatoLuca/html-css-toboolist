@@ -2,7 +2,7 @@
 
 _HTML + css_
 
-creazione di una web app
+creazione di un ipotetica web app
 
 - intruduzione a google font
 - personalizzazione dei div tramite padding e border
